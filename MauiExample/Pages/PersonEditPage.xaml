@@ -23,10 +23,10 @@
       <HorizontalStackLayout Grid.Row="0">
         <Entry Text="{Binding Name}" WidthRequest="200" />
         <!-- Element that prevents the page from loading -->
-        <!--<csla:PropertyInfo Path="Name" x:Name="CheckNameInfo" />
+        <csla:PropertyInfo Path="Name" x:Name="CheckNameInfo" />
         <Label TextColor="Red" BindingContext="{x:Reference CheckNameInfo}" Text="{Binding ErrorText}" Margin="3" />
         <Label TextColor="Yellow" BindingContext="{x:Reference CheckNameInfo}" Text="{Binding WarningText}" Margin="3" />
-        <Label TextColor="LightGreen" BindingContext="{x:Reference CheckNameInfo}" Text="{Binding InformationText}" Margin="3" />-->
+        <Label TextColor="LightGreen" BindingContext="{x:Reference CheckNameInfo}" Text="{Binding InformationText}" Margin="3" />
       </HorizontalStackLayout>
 
       <HorizontalStackLayout Grid.Row="1">
